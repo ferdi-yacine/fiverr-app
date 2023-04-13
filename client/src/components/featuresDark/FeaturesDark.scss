@@ -1,0 +1,37 @@
+.features {
+
+    &.dark {
+        background-color: #0d084d;
+        
+        h1 {
+            color: white !important;
+        }
+
+        p {
+            color: white !important;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            color: white !important;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            background-color: #1dbf73;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            border: none;
+            width: max-content;
+        }
+    }
+}
